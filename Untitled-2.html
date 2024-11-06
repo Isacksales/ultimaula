@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .foto-perfil {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .descricao, .habilidades, .historico-escolar {
+            background-color: #f7f7f7;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            clear: both;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        footer li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <!-- Faixa superior com foto e nome -->
+    <header>
+        <div class="header-container">
+            <img src="isack.jpeg" alt="Foto de perfil" class="foto-perfil">
+            <h1>ISACK GUILHERME SALES</h1>
+        </div>
+    </header>
+    
+    <!-- Parte do meio com descrição e habilidades -->
+    <main>
+        <section class="descricao">
+            <h2>Quem sou eu</h2>
+            <p>Descrição breve de quem você é e o que você faz.</p>
+        </section>
+        <section class="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Outras habilidades...</li>
+            </ul>
+        </section>
+        <section class="historico-escolar">
+          <h2>Histórico Escolar</h2>
+          <ul>
+              <li class="historico-item">
+                  <p>Graduação em Ciência da Computação</p>
+              </li>
+              <li class="historico-item">
+                  <p>Pós-graduação em Desenvolvimento Web</p>
+              </li>
+              <li class="historico-item">
+                  <p>Outros cursos e certificações...</p>
+              </li>
+          </ul>
+      </section>
+    </main>
+    
+    <!-- Parte inferior com links para redes sociais -->
+    <footer>
+      <h2>Redes Sociais</h2>
+      <ul>
+          <li><a href="https://www.linkedin.com/in/isac-g-516970106/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          <li><a href="https://github.com/Isacksales" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+          <li><a href="https://www.facebook.com/seu-nome/" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+          <li><a href="https://twitter.com/seu-nome" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+      </ul>
+  </footer>
+</body>
+</html>
